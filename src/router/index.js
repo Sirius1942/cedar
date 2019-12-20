@@ -133,7 +133,7 @@ export const constantRoutes = [
 export const asyncRoutes = [
   {
     path: '/permission',
-    hidden: false,
+    hidden: true,
     component: Layout,
     redirect: '/permission/page',
     alwaysShow: true, // will always show the root menu
